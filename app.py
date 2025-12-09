@@ -8,6 +8,7 @@ import json
 import pandas as pd
 import time
 import base64
+import requests
 from io import BytesIO
 
 # import fungsi CVRP core (harus ada file ga_core_cvrp.py di folder yang sama)
@@ -403,3 +404,4 @@ if run_button:
 
 else:
     st.info("Tekan tombol ▶ Jalankan GA (CVRP) di sidebar untuk memulai.")
+
