@@ -1,4 +1,7 @@
 streamlit
 numpy
-matplotlib==3.7.1
+pandas
+matplotlib
+seaborn
+requests
 pillow
